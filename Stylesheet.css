@@ -4,6 +4,11 @@
     padding: 0;
     margin: 0;
 }
+
+html{
+    background-color: #868686;
+}
+
 header {
     position:relative;
     display: flex;
@@ -11,11 +16,24 @@ header {
     align-items: center;
     background-color: #353535;
     color: #fff;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 1px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
+h1{
+    position: relative;
+    left: 20px;
+    bottom: 1px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h3 {
+    position: relative;
+    font-size: 30px;
+    left: 10px;
+}
 .logo {
     position:absolute;
     max-width: 66px;
@@ -27,25 +45,36 @@ header {
 }
 
 li {
+    position: relative;
     display:inline;
     list-style-type: none;
-    top: 75px;
-    right: 3px;
+    right: 5px;
+    bottom: 5px;
+    padding: 1px;
+    color: 	#238b83;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: space-between ;
+    justify-content: space-between;
     
 }
 body {
     background-color: #f4f4f9;
 }
 
+
+
 .heading {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ;
-    border: 4px;
-    background-color: #555555;
-    color: 		#939598;
+    top: 430px;
+    left: 10px;
+    position: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 800px;
+    background-color: #3b3b3b;
+    color: 	#ffffff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px grey;
+
 }
-/*
+
 .hero {
     height: 300px;
     width: 100%;
@@ -53,26 +82,64 @@ body {
     background-size: cover;
     background-position: center;
 }
-*/
-.about_me {
-    margin-bottom: 32px;
-    color: white;
-}
 
 a:visited {
-    color: white;
+    color: #238b83;
 }
 
 .aboutme{
+    position: relative;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 10px;
 }
-/* fix at later date
-.horiseonlink {
+
+.projects {
+    background-color: #02221d;
+    position: relative;
+    display:block;
+    text-align: right;
+    font-size: 35px;    
+    border-bottom: solid #023029;;
+}
+
+.projectstext{
+    position:relative;
+    right: 40px;
+    bottom: 3px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+.horiseonlink img  {
     position: absolute;
     max-width: 400px;
-    right: 30px;
-    top: 510px;
-    border: 4px solid #353535;
+    right: 10px;
+    top: 432px;
+    background-color:grey;
+    border:  3px solid 	#424549;
+    border-radius: 10px;
+    opacity: 0.6;
+    transition: 0.3s;
+    box-shadow: 2px 2px 5px rgb(75, 75, 75);
+
 }
-*/
+
+
+.horiseonlink :hover{
+    opacity: 1;
+}
+
+.footer {
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    text-align: center;
+}
+
