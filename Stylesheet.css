@@ -51,7 +51,7 @@ li {
     right: 5px;
     bottom: 5px;
     padding: 1px;
-    color: 	#238b83;
+    color: 	#ffffff;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-between;
     
@@ -84,7 +84,7 @@ body {
 }
 
 a:visited {
-    color: #238b83;
+    color: #ffffff;
 }
 
 .aboutme{
